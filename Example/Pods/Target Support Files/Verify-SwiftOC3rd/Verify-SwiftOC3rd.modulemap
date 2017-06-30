@@ -1,4 +1,4 @@
-framework module Verify_SwiftOC3rd {
+framework module Verify_SwiftOC3rd_Vendors {
   umbrella header "Verify-SwiftOC3rd-umbrella.h"
 
   export *

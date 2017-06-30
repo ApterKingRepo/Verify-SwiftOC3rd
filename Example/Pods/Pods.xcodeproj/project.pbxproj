@@ -7,20 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BD1BC97BC5F3C2408BCA334D93BF534 /* Verify-SwiftOC3rd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FA3C4E729E35B76609643DE480FF4A /* Verify-SwiftOC3rd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39F897BAE9D7F27DCB9EA483ECA69E15 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4012A748F7A747F3E4FA7B91E85B31 /* ReplaceMe.swift */; };
+		187D8AFAC83D6FA0BF39A8B72608DEAF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1843F0A581532FC76D78ACFBB94DD2CA /* CoreTelephony.framework */; };
+		1A8A8CF4D074267C36437DA89253BBD5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF529BB809E68D9AB161645A40793EE /* CoreLocation.framework */; };
+		227495DFDC7EA397AB54B0A3E0536DDC /* PersonProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BD1D29A0FE1EF5D1CD05593102E627 /* PersonProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A35D7C98C49E1FE26B1870F64985B0F /* Pods-Verify-SwiftOC3rd_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D82A67F78B0DF5B79714985FBDCC927 /* Pods-Verify-SwiftOC3rd_Example-dummy.m */; };
-		62D4BAAD1E8E71FF879C58A938E765FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6E0659561F05F01C001F567D /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0659511F05F01C001F567D /* BaiduMapAPI_Base.framework */; };
-		6E0659571F05F01C001F567D /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0659521F05F01C001F567D /* BaiduMapAPI_Map.framework */; };
-		6E0659581F05F01C001F567D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0659541F05F01C001F567D /* libcrypto.a */; };
-		6E0659591F05F01C001F567D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0659551F05F01C001F567D /* libssl.a */; };
-		71EC4E05755BDD6805EC6E76CBD61E07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		971DC295158D396A66262E5699355DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		56855BB320B0DC80399A61F323262743 /* Kid.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E719DAD2250ACEB19BE07CA022A065D /* Kid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61C8C60E909808AECCB3DD91612C6B1E /* Mother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902077CE21499256DD2136D80E6809A5 /* Mother.swift */; };
+		62D4BAAD1E8E71FF879C58A938E765FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBCA7B989F62D2ED5FB7DDF616ADC2 /* Foundation.framework */; };
+		671997BC361DFB8E658CA9407468C677 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E0265287939DA2B815A947A89FB2B6 /* SystemConfiguration.framework */; };
+		68FEA3B401B88A761C156B7FF300772D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C3B081BC5BFC74882DC324D61B4D7D /* QuartzCore.framework */; };
+		6E0659CB1F06377C001F567D /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D909C793C6D60086A16647F1A73A911F /* BaiduMapAPI_Base.framework */; };
+		6E0659CC1F063780001F567D /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9A85A9DE3D98AB700BB99BD4CEAE67 /* BaiduMapAPI_Map.framework */; };
+		6E0659CD1F063783001F567D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A02BBF89DBB0694CCD2794906B7C18 /* libcrypto.a */; };
+		6E0659CE1F063787001F567D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E7A889CDE4DC86183AF66C6001FC3D /* libssl.a */; };
+		7894409BCD5BFA78A61639E907D68DF3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB08E5F4CEBD5F5CCA24FDC031A1AD4 /* OpenGLES.framework */; };
+		7C8AA5D8253EBF84FBC20055DAC60811 /* Father.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61660C22C8B84885AE3BA5EED2B1FF /* Father.swift */; };
+		82FCBEB40EA10FD1F329DD73F83240EB /* Verify-SwiftOC3rd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506F1C2E0FA8A1193A74024418CDA0A /* Verify-SwiftOC3rd-dummy.m */; };
+		88BE83B941A54C35B545300EEB2BB4A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC0D2FC22C7A0C4E447281BC32A603 /* Security.framework */; };
+		8D411A502B0FCA550BA91AF8EBE0C364 /* Family.h in Headers */ = {isa = PBXBuildFile; fileRef = 6937032D92E656BBCA840CE712894FD8 /* Family.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911F6A7FBAF2ED4AF064C680F7A99C63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC184B8A4681962163752F6F219A9750 /* CoreGraphics.framework */; };
+		939E4B2A9955D3CBA0BF9235E8AC143C /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA14711DFC10BFF71322015F32BC /* Family.m */; };
+		971DC295158D396A66262E5699355DD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBCA7B989F62D2ED5FB7DDF616ADC2 /* Foundation.framework */; };
 		C2F2AA557F5116DD6C75A32D20BB94BA /* Pods-Verify-SwiftOC3rd_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5D08D9F5F0E0CCC283697E5740B9DB /* Pods-Verify-SwiftOC3rd_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C991EA5A877C5747A8013C0638DBA3B2 /* Pods-Verify-SwiftOC3rd_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D60129857F0F4CB2EE3D73BD002121 /* Pods-Verify-SwiftOC3rd_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6E270BD7C69B530D62EE142FB1C6827 /* Verify-SwiftOC3rd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A9FBD338E2A790A8A17B9CB1920F2 /* Verify-SwiftOC3rd-dummy.m */; };
+		D2A9B4001A314474A0C0BE1D8AC74FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBCA7B989F62D2ED5FB7DDF616ADC2 /* Foundation.framework */; };
+		D617FEACDECB6A807B27EF532BF6FF13 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = 78071BB2BA75BBD456BCB43098D1FB5C /* Kid.m */; };
+		D96F836FC122019834C7482BA1947006 /* Verify_SwiftOC3rd.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DCC414A76730E5CF0C4EC4FED217CC /* Verify_SwiftOC3rd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA9129AD05EC9A24402696620A1C2C80 /* Pods-Verify-SwiftOC3rd_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27404F4B942969FF098B8C8541B2C08A /* Pods-Verify-SwiftOC3rd_Tests-dummy.m */; };
+		F2594D9153BCFF9894CC5674DD0FB981 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACE8FC4430C24C5CD1E4B264F4598B /* MapViewController.swift */; };
+		FE276F55BF83475FDE1436A9CF724268 /* Verify-SwiftOC3rd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BCE03BFC24A7416232865EA000744F /* Verify-SwiftOC3rd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,41 +50,56 @@
 
 /* Begin PBXFileReference section */
 		0353FE90E41D650DABC3EB71FE19CB89 /* Pods-Verify-SwiftOC3rd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verify-SwiftOC3rd_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0C4012A748F7A747F3E4FA7B91E85B31 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		17EBAA14711DFC10BFF71322015F32BC /* Family.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Family.m; sourceTree = "<group>"; };
+		1843F0A581532FC76D78ACFBB94DD2CA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		1BB08E5F4CEBD5F5CCA24FDC031A1AD4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Verify-SwiftOC3rd.xcconfig"; sourceTree = "<group>"; };
+		1DF529BB809E68D9AB161645A40793EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		2506F1C2E0FA8A1193A74024418CDA0A /* Verify-SwiftOC3rd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Verify-SwiftOC3rd-dummy.m"; sourceTree = "<group>"; };
 		27404F4B942969FF098B8C8541B2C08A /* Pods-Verify-SwiftOC3rd_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Verify-SwiftOC3rd_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C526C1F55F10E6C3C8865EEC429F595 /* Pods-Verify-SwiftOC3rd_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verify-SwiftOC3rd_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		328B5FAB957EF24603D8086E6DD3A8F7 /* Pods-Verify-SwiftOC3rd_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Tests-resources.sh"; sourceTree = "<group>"; };
-		363A9FBD338E2A790A8A17B9CB1920F2 /* Verify-SwiftOC3rd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Verify-SwiftOC3rd-dummy.m"; sourceTree = "<group>"; };
-		4560CBD076D561322C2854FC2311B198 /* Verify-SwiftOC3rd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Verify-SwiftOC3rd.modulemap"; sourceTree = "<group>"; };
+		43ACE8FC4430C24C5CD1E4B264F4598B /* MapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4A7165E7DB91D9F2B5A1193895A1B2B8 /* Pods-Verify-SwiftOC3rd_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Verify-SwiftOC3rd_Example.modulemap"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E0659511F05F01C001F567D /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
-		6E0659521F05F01C001F567D /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
-		6E0659541F05F01C001F567D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		6E0659551F05F01C001F567D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		50E0265287939DA2B815A947A89FB2B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5E5AC2E173FAD76642A69EB727E7A4C6 /* Pods_Verify_SwiftOC3rd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E719DAD2250ACEB19BE07CA022A065D /* Kid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kid.h; sourceTree = "<group>"; };
+		62C3B081BC5BFC74882DC324D61B4D7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6937032D92E656BBCA840CE712894FD8 /* Family.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Family.h; sourceTree = "<group>"; };
+		6ACBCA7B989F62D2ED5FB7DDF616ADC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71DCC414A76730E5CF0C4EC4FED217CC /* Verify_SwiftOC3rd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Verify_SwiftOC3rd.h; sourceTree = "<group>"; };
 		7616860263D8F5EC40D5B70B9F29EC38 /* Pods-Verify-SwiftOC3rd_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7962FFFDF954F239EAEA5F37A0F74600 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78071BB2BA75BBD456BCB43098D1FB5C /* Kid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
 		824169206FDA518B73F045BF9F3480C0 /* Pods-Verify-SwiftOC3rd_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verify-SwiftOC3rd_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8266B9F42FA8F03822017772B7F10E2B /* Pods_Verify_SwiftOC3rd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B49C3E2195B3A1684AE5BE718D8198B /* Verify_SwiftOC3rd_Vendors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Verify_SwiftOC3rd_Vendors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5D08D9F5F0E0CCC283697E5740B9DB /* Pods-Verify-SwiftOC3rd_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verify-SwiftOC3rd_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8F9A85A9DE3D98AB700BB99BD4CEAE67 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = "Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework"; sourceTree = "<group>"; };
+		902077CE21499256DD2136D80E6809A5 /* Mother.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mother.swift; sourceTree = "<group>"; };
 		905E8E08F4B84781B736C1A024F3BD99 /* Pods-Verify-SwiftOC3rd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verify-SwiftOC3rd_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91A02BBF89DBB0694CCD2794906B7C18 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Verify-SwiftOC3rd/Vendors/thirdlibs/libcrypto.a"; sourceTree = "<group>"; };
 		92B087A6B4C10E940D394C733BDE2155 /* Pods-Verify-SwiftOC3rd_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D2A2E87FD3B52755C5DD75BD3EA763 /* Pods-Verify-SwiftOC3rd_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Verify-SwiftOC3rd_Tests.modulemap"; sourceTree = "<group>"; };
 		9D82A67F78B0DF5B79714985FBDCC927 /* Pods-Verify-SwiftOC3rd_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Verify-SwiftOC3rd_Example-dummy.m"; sourceTree = "<group>"; };
 		A2D60129857F0F4CB2EE3D73BD002121 /* Pods-Verify-SwiftOC3rd_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verify-SwiftOC3rd_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4A51BE2E1A1A678B0F93D134DD48352 /* Pods-Verify-SwiftOC3rd_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verify-SwiftOC3rd_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0FA3C4E729E35B76609643DE480FF4A /* Verify-SwiftOC3rd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd-umbrella.h"; sourceTree = "<group>"; };
-		BC3FA72F1CD713D592B9FC954CAE16E8 /* Pods_Verify_SwiftOC3rd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BCE03BFC24A7416232865EA000744F /* Verify-SwiftOC3rd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd-umbrella.h"; sourceTree = "<group>"; };
 		CD28FAF444DDAD78340C8DAEDCF31A0D /* Pods-Verify-SwiftOC3rd_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verify-SwiftOC3rd_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE91FEFDA1ACEFDD5E2C22C1C52DF577 /* Pods-Verify-SwiftOC3rd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verify-SwiftOC3rd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF187AC5F7F533FC01E3F91074AFCAA5 /* Verify_SwiftOC3rd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Verify_SwiftOC3rd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D83563DB3362B39477849E121DDF41ED /* Verify-SwiftOC3rd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd-prefix.pch"; sourceTree = "<group>"; };
+		D909C793C6D60086A16647F1A73A911F /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = "Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base.framework"; sourceTree = "<group>"; };
 		DE8B08FD5B6842CF3E91F6630F98DEC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEBDBE96BD551A09D1EF8F2A1AEC6908 /* Verify-SwiftOC3rd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Verify-SwiftOC3rd.xcconfig"; sourceTree = "<group>"; };
+		E1BD1D29A0FE1EF5D1CD05593102E627 /* PersonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		E3E7A889CDE4DC86183AF66C6001FC3D /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "Verify-SwiftOC3rd/Vendors/thirdlibs/libssl.a"; sourceTree = "<group>"; };
 		E73D0F3ACB80266C1BD3EBEF8060C17A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB331DD7B6AC0AB44EC240C843E3B6A6 /* Pods-Verify-SwiftOC3rd_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verify-SwiftOC3rd_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EC61660C22C8B84885AE3BA5EED2B1FF /* Father.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Father.swift; sourceTree = "<group>"; };
 		EF3C30227403A6D7368FA7E9C048BA6B /* Pods-Verify-SwiftOC3rd_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Example-resources.sh"; sourceTree = "<group>"; };
+		EF5F25F8B44A1898083D417AC361CE4B /* Verify-SwiftOC3rd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd-prefix.pch"; sourceTree = "<group>"; };
+		F10E39A8848F9754627C5F971520AFCA /* Verify-SwiftOC3rd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Verify-SwiftOC3rd.modulemap"; sourceTree = "<group>"; };
+		F4E81B02D1E2F5E0CC483E5B51003CF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7609D7AF22BE2195B8974D3B42C91A8 /* Pods_Verify_SwiftOC3rd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC184B8A4681962163752F6F219A9750 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		FCDC0D2FC22C7A0C4E447281BC32A603 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,19 +107,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0659591F05F01C001F567D /* libssl.a in Frameworks */,
 				971DC295158D396A66262E5699355DD0 /* Foundation.framework in Frameworks */,
-				6E0659561F05F01C001F567D /* BaiduMapAPI_Base.framework in Frameworks */,
-				6E0659581F05F01C001F567D /* libcrypto.a in Frameworks */,
-				6E0659571F05F01C001F567D /* BaiduMapAPI_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50DBA18D260F526EE2F42E89C0224108 /* Frameworks */ = {
+		43FE2F926B2FEA172510B6C81F8DBAC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EC4E05755BDD6805EC6E76CBD61E07 /* Foundation.framework in Frameworks */,
+				911F6A7FBAF2ED4AF064C680F7A99C63 /* CoreGraphics.framework in Frameworks */,
+				1A8A8CF4D074267C36437DA89253BBD5 /* CoreLocation.framework in Frameworks */,
+				187D8AFAC83D6FA0BF39A8B72608DEAF /* CoreTelephony.framework in Frameworks */,
+				6E0659CC1F063780001F567D /* BaiduMapAPI_Map.framework in Frameworks */,
+				D2A9B4001A314474A0C0BE1D8AC74FEF /* Foundation.framework in Frameworks */,
+				7894409BCD5BFA78A61639E907D68DF3 /* OpenGLES.framework in Frameworks */,
+				6E0659CD1F063783001F567D /* libcrypto.a in Frameworks */,
+				68FEA3B401B88A761C156B7FF300772D /* QuartzCore.framework in Frameworks */,
+				6E0659CE1F063787001F567D /* libssl.a in Frameworks */,
+				6E0659CB1F06377C001F567D /* BaiduMapAPI_Base.framework in Frameworks */,
+				88BE83B941A54C35B545300EEB2BB4A1 /* Security.framework in Frameworks */,
+				671997BC361DFB8E658CA9407468C677 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,28 +141,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C74BC9011C5703F2E4FCE5FAB9513DD /* Products */ = {
+		110D42B5084F53BEE6A09BA222EA6FE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8266B9F42FA8F03822017772B7F10E2B /* Pods_Verify_SwiftOC3rd_Example.framework */,
-				BC3FA72F1CD713D592B9FC954CAE16E8 /* Pods_Verify_SwiftOC3rd_Tests.framework */,
-				CF187AC5F7F533FC01E3F91074AFCAA5 /* Verify_SwiftOC3rd.framework */,
+				F7609D7AF22BE2195B8974D3B42C91A8 /* Pods_Verify_SwiftOC3rd_Example.framework */,
+				5E5AC2E173FAD76642A69EB727E7A4C6 /* Pods_Verify_SwiftOC3rd_Tests.framework */,
+				8B49C3E2195B3A1684AE5BE718D8198B /* Verify_SwiftOC3rd_Vendors.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AC61C66C15DB44A736A76A740F329D4 /* Support Files */ = {
+		13573E098FC88E42BC9F3D16F82A7F63 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7962FFFDF954F239EAEA5F37A0F74600 /* Info.plist */,
-				4560CBD076D561322C2854FC2311B198 /* Verify-SwiftOC3rd.modulemap */,
-				DEBDBE96BD551A09D1EF8F2A1AEC6908 /* Verify-SwiftOC3rd.xcconfig */,
-				363A9FBD338E2A790A8A17B9CB1920F2 /* Verify-SwiftOC3rd-dummy.m */,
-				D83563DB3362B39477849E121DDF41ED /* Verify-SwiftOC3rd-prefix.pch */,
-				B0FA3C4E729E35B76609643DE480FF4A /* Verify-SwiftOC3rd-umbrella.h */,
+				FC184B8A4681962163752F6F219A9750 /* CoreGraphics.framework */,
+				1DF529BB809E68D9AB161645A40793EE /* CoreLocation.framework */,
+				1843F0A581532FC76D78ACFBB94DD2CA /* CoreTelephony.framework */,
+				6ACBCA7B989F62D2ED5FB7DDF616ADC2 /* Foundation.framework */,
+				1BB08E5F4CEBD5F5CCA24FDC031A1AD4 /* OpenGLES.framework */,
+				62C3B081BC5BFC74882DC324D61B4D7D /* QuartzCore.framework */,
+				FCDC0D2FC22C7A0C4E447281BC32A603 /* Security.framework */,
+				50E0265287939DA2B815A947A89FB2B6 /* SystemConfiguration.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Verify-SwiftOC3rd";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2F9C6B47EE366750AC0657D713FEA976 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6937032D92E656BBCA840CE712894FD8 /* Family.h */,
+				17EBAA14711DFC10BFF71322015F32BC /* Family.m */,
+				EC61660C22C8B84885AE3BA5EED2B1FF /* Father.swift */,
+				5E719DAD2250ACEB19BE07CA022A065D /* Kid.h */,
+				78071BB2BA75BBD456BCB43098D1FB5C /* Kid.m */,
+				43ACE8FC4430C24C5CD1E4B264F4598B /* MapViewController.swift */,
+				902077CE21499256DD2136D80E6809A5 /* Mother.swift */,
+				E1BD1D29A0FE1EF5D1CD05593102E627 /* PersonProtocol.h */,
+				71DCC414A76730E5CF0C4EC4FED217CC /* Verify_SwiftOC3rd.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		382ABF6F82EE1473E3CFD22FC598383F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7664717B4A610D34985740B9D057E58 /* Verify-SwiftOC3rd */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B6BC7D29C5C4E13A71B471935A4CA50 /* Verify-SwiftOC3rd */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C6B47EE366750AC0657D713FEA976 /* Classes */,
+			);
+			path = "Verify-SwiftOC3rd";
 			sourceTree = "<group>";
 		};
 		53371F77AB334521CF7F62C23591FB53 /* Pods-Verify-SwiftOC3rd_Example */ = {
@@ -146,85 +216,34 @@
 			path = "Target Support Files/Pods-Verify-SwiftOC3rd_Example";
 			sourceTree = "<group>";
 		};
-		6D6CFE8FE93B44C542D8C34415B5F0B5 /* Development Pods */ = {
+		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF9501BE52C2FF9E86BB6520ACD66420 /* Verify-SwiftOC3rd */,
+				13573E098FC88E42BC9F3D16F82A7F63 /* iOS */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6E0659501F05F01C001F567D /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				6E0659511F05F01C001F567D /* BaiduMapAPI_Base.framework */,
-				6E0659521F05F01C001F567D /* BaiduMapAPI_Map.framework */,
-				6E0659531F05F01C001F567D /* thirdlibs */,
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
-		6E0659531F05F01C001F567D /* thirdlibs */ = {
-			isa = PBXGroup;
-			children = (
-				6E0659541F05F01C001F567D /* libcrypto.a */,
-				6E0659551F05F01C001F567D /* libssl.a */,
-			);
-			path = thirdlibs;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6D6CFE8FE93B44C542D8C34415B5F0B5 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0C74BC9011C5703F2E4FCE5FAB9513DD /* Products */,
+				382ABF6F82EE1473E3CFD22FC598383F /* Development Pods */,
+				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				110D42B5084F53BEE6A09BA222EA6FE5 /* Products */,
 				F075ED869CB8924D9AC4267F61ACD97C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B244DD4E5BF6EC1464BF0A55555C8A1 /* Classes */ = {
+		95EED272BC35B16013854F5756A14A13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C4012A748F7A747F3E4FA7B91E85B31 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		AF9501BE52C2FF9E86BB6520ACD66420 /* Verify-SwiftOC3rd */ = {
-			isa = PBXGroup;
-			children = (
-				3AC61C66C15DB44A736A76A740F329D4 /* Support Files */,
-				B56306555A46C29B20C613BA6A9685A7 /* Verify-SwiftOC3rd */,
-			);
-			name = "Verify-SwiftOC3rd";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B56306555A46C29B20C613BA6A9685A7 /* Verify-SwiftOC3rd */ = {
-			isa = PBXGroup;
-			children = (
-				6E0659501F05F01C001F567D /* Vendors */,
-				9B244DD4E5BF6EC1464BF0A55555C8A1 /* Classes */,
-			);
-			path = "Verify-SwiftOC3rd";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				D909C793C6D60086A16647F1A73A911F /* BaiduMapAPI_Base.framework */,
+				8F9A85A9DE3D98AB700BB99BD4CEAE67 /* BaiduMapAPI_Map.framework */,
+				91A02BBF89DBB0694CCD2794906B7C18 /* libcrypto.a */,
+				E3E7A889CDE4DC86183AF66C6001FC3D /* libssl.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E40E848B8A24216D0AA520D1DC8727AC /* Pods-Verify-SwiftOC3rd_Tests */ = {
@@ -245,6 +264,17 @@
 			path = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests";
 			sourceTree = "<group>";
 		};
+		E7664717B4A610D34985740B9D057E58 /* Verify-SwiftOC3rd */ = {
+			isa = PBXGroup;
+			children = (
+				95EED272BC35B16013854F5756A14A13 /* Frameworks */,
+				F5BC30A5DFEE0CA87B9831747EE9C022 /* Support Files */,
+				3B6BC7D29C5C4E13A71B471935A4CA50 /* Verify-SwiftOC3rd */,
+			);
+			name = "Verify-SwiftOC3rd";
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		F075ED869CB8924D9AC4267F61ACD97C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +282,20 @@
 				E40E848B8A24216D0AA520D1DC8727AC /* Pods-Verify-SwiftOC3rd_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5BC30A5DFEE0CA87B9831747EE9C022 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E81B02D1E2F5E0CC483E5B51003CF7 /* Info.plist */,
+				F10E39A8848F9754627C5F971520AFCA /* Verify-SwiftOC3rd.modulemap */,
+				1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */,
+				2506F1C2E0FA8A1193A74024418CDA0A /* Verify-SwiftOC3rd-dummy.m */,
+				EF5F25F8B44A1898083D417AC361CE4B /* Verify-SwiftOC3rd-prefix.pch */,
+				B7BCE03BFC24A7416232865EA000744F /* Verify-SwiftOC3rd-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Verify-SwiftOC3rd";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,19 +309,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		333A3970CBF6F5C73057EE6D9F4D270C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D411A502B0FCA550BA91AF8EBE0C364 /* Family.h in Headers */,
+				56855BB320B0DC80399A61F323262743 /* Kid.h in Headers */,
+				227495DFDC7EA397AB54B0A3E0536DDC /* PersonProtocol.h in Headers */,
+				FE276F55BF83475FDE1436A9CF724268 /* Verify-SwiftOC3rd-umbrella.h in Headers */,
+				D96F836FC122019834C7482BA1947006 /* Verify_SwiftOC3rd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94EBCE1599FD84A1691D399CA8C7B2F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C991EA5A877C5747A8013C0638DBA3B2 /* Pods-Verify-SwiftOC3rd_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA2CB60B2494AF7A6929E51F3652710F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BD1BC97BC5F3C2408BCA334D93BF534 /* Verify-SwiftOC3rd-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +347,7 @@
 			);
 			name = "Pods-Verify-SwiftOC3rd_Example";
 			productName = "Pods-Verify-SwiftOC3rd_Example";
-			productReference = 8266B9F42FA8F03822017772B7F10E2B /* Pods_Verify_SwiftOC3rd_Example.framework */;
+			productReference = F7609D7AF22BE2195B8974D3B42C91A8 /* Pods_Verify_SwiftOC3rd_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1F1C74DEBF1C0672AF36D779E7E205C7 /* Pods-Verify-SwiftOC3rd_Tests */ = {
@@ -316,16 +364,16 @@
 			);
 			name = "Pods-Verify-SwiftOC3rd_Tests";
 			productName = "Pods-Verify-SwiftOC3rd_Tests";
-			productReference = BC3FA72F1CD713D592B9FC954CAE16E8 /* Pods_Verify_SwiftOC3rd_Tests.framework */;
+			productReference = 5E5AC2E173FAD76642A69EB727E7A4C6 /* Pods_Verify_SwiftOC3rd_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3461D52BC1E70C92CEB24A4E8FEA6322 /* Verify-SwiftOC3rd */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9030DE12C80B79B0F2B7EBB42CC41BD9 /* Build configuration list for PBXNativeTarget "Verify-SwiftOC3rd" */;
 			buildPhases = (
-				971F33CFF1F6D1DC0CD8DED61E8CBFDE /* Sources */,
-				50DBA18D260F526EE2F42E89C0224108 /* Frameworks */,
-				AA2CB60B2494AF7A6929E51F3652710F /* Headers */,
+				6C4184664192C479634EBDF2F81F191F /* Sources */,
+				43FE2F926B2FEA172510B6C81F8DBAC4 /* Frameworks */,
+				333A3970CBF6F5C73057EE6D9F4D270C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -333,7 +381,7 @@
 			);
 			name = "Verify-SwiftOC3rd";
 			productName = "Verify-SwiftOC3rd";
-			productReference = CF187AC5F7F533FC01E3F91074AFCAA5 /* Verify_SwiftOC3rd.framework */;
+			productReference = 8B49C3E2195B3A1684AE5BE718D8198B /* Verify_SwiftOC3rd_Vendors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -353,7 +401,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0C74BC9011C5703F2E4FCE5FAB9513DD /* Products */;
+			productRefGroup = 110D42B5084F53BEE6A09BA222EA6FE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -373,12 +421,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		971F33CFF1F6D1DC0CD8DED61E8CBFDE /* Sources */ = {
+		6C4184664192C479634EBDF2F81F191F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F897BAE9D7F27DCB9EA483ECA69E15 /* ReplaceMe.swift in Sources */,
-				D6E270BD7C69B530D62EE142FB1C6827 /* Verify-SwiftOC3rd-dummy.m in Sources */,
+				939E4B2A9955D3CBA0BF9235E8AC143C /* Family.m in Sources */,
+				7C8AA5D8253EBF84FBC20055DAC60811 /* Father.swift in Sources */,
+				D617FEACDECB6A807B27EF532BF6FF13 /* Kid.m in Sources */,
+				F2594D9153BCFF9894CC5674DD0FB981 /* MapViewController.swift in Sources */,
+				61C8C60E909808AECCB3DD91612C6B1E /* Mother.swift in Sources */,
+				82FCBEB40EA10FD1F329DD73F83240EB /* Verify-SwiftOC3rd-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +538,41 @@
 			};
 			name = Debug;
 		};
+		485B30C50EFE60457DD57A488CD37B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Verify-SwiftOC3rd/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Verify_SwiftOC3rd_Vendors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6F5B641D5220AACC4F0D78729123D0C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 905E8E08F4B84781B736C1A024F3BD99 /* Pods-Verify-SwiftOC3rd_Example.debug.xcconfig */;
@@ -569,6 +656,40 @@
 			};
 			name = Release;
 		};
+		8B2BF9EC7CA442F7F733F67DFCFD7E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Verify-SwiftOC3rd/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Verify_SwiftOC3rd_Vendors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A75CF286AF67B4337630FF96CFCF380B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB331DD7B6AC0AB44EC240C843E3B6A6 /* Pods-Verify-SwiftOC3rd_Example.release.xcconfig */;
@@ -597,75 +718,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B73C1BE55B385B692D6E4967BDC6EB94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEBDBE96BD551A09D1EF8F2A1AEC6908 /* Verify-SwiftOC3rd.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Verify-SwiftOC3rd/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Verify_SwiftOC3rd;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C504032F1437BAC6D4523FB5B36CCE5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEBDBE96BD551A09D1EF8F2A1AEC6908 /* Verify-SwiftOC3rd.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Verify-SwiftOC3rd/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Verify_SwiftOC3rd;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -727,8 +779,8 @@
 		9030DE12C80B79B0F2B7EBB42CC41BD9 /* Build configuration list for PBXNativeTarget "Verify-SwiftOC3rd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B73C1BE55B385B692D6E4967BDC6EB94 /* Debug */,
-				C504032F1437BAC6D4523FB5B36CCE5D /* Release */,
+				485B30C50EFE60457DD57A488CD37B4D /* Debug */,
+				8B2BF9EC7CA442F7F733F67DFCFD7E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

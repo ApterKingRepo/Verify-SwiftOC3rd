@@ -1,5 +1,5 @@
 PODS:
-  - Verify-SwiftOC3rd (0.1.0)
+  - Verify-SwiftOC3rd (0.1.1)
 
 DEPENDENCIES:
   - Verify-SwiftOC3rd (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Verify-SwiftOC3rd: 25531230584c26b1012f3a0d1f99676419ad6dc3
+  Verify-SwiftOC3rd: 9eab3a373844cd381f4a74ecf651ab7edaaf2501
 
 PODFILE CHECKSUM: de7d8b0504acfc23eaacd60b6038836dec737016
 

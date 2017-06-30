@@ -1,6 +1,10 @@
 CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/Verify-SwiftOC3rd
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Verify-SwiftOC3rd/Vendors"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Public"
+LD_RUNPATH_SEARCH_PATHS = $(PODS_ROOT)/Verify-SwiftOC3rd/Vendors/
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Verify-SwiftOC3rd/Vendors/thirdlibs"
+OTHER_LDFLAGS = -l"crypto" -l"sqlite3.0" -l"ssl" -l"stdc++.6.0.9" -framework "BaiduMapAPI_Base" -framework "BaiduMapAPI_Map" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
