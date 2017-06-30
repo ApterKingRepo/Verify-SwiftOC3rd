@@ -1,0 +1,6 @@
+framework module Verify_SwiftOC3rd {
+  umbrella header "Verify-SwiftOC3rd-umbrella.h"
+
+  export *
+  module * { export * }
+}

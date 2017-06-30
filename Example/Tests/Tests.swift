@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Verify-SwiftOC3rd
+import Verify_SwiftOC3rd
 
 class Tests: XCTestCase {
     

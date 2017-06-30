@@ -1,0 +1,16 @@
+PODS:
+  - Verify-SwiftOC3rd (0.1.0)
+
+DEPENDENCIES:
+  - Verify-SwiftOC3rd (from `../`)
+
+EXTERNAL SOURCES:
+  Verify-SwiftOC3rd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Verify-SwiftOC3rd: 25531230584c26b1012f3a0d1f99676419ad6dc3
+
+PODFILE CHECKSUM: de7d8b0504acfc23eaacd60b6038836dec737016
+
+COCOAPODS: 1.2.1
