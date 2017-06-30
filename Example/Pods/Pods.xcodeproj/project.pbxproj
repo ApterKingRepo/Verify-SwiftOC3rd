@@ -16,10 +16,6 @@
 		62D4BAAD1E8E71FF879C58A938E765FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBCA7B989F62D2ED5FB7DDF616ADC2 /* Foundation.framework */; };
 		671997BC361DFB8E658CA9407468C677 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E0265287939DA2B815A947A89FB2B6 /* SystemConfiguration.framework */; };
 		68FEA3B401B88A761C156B7FF300772D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C3B081BC5BFC74882DC324D61B4D7D /* QuartzCore.framework */; };
-		6E0659CB1F06377C001F567D /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D909C793C6D60086A16647F1A73A911F /* BaiduMapAPI_Base.framework */; };
-		6E0659CC1F063780001F567D /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9A85A9DE3D98AB700BB99BD4CEAE67 /* BaiduMapAPI_Map.framework */; };
-		6E0659CD1F063783001F567D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A02BBF89DBB0694CCD2794906B7C18 /* libcrypto.a */; };
-		6E0659CE1F063787001F567D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E7A889CDE4DC86183AF66C6001FC3D /* libssl.a */; };
 		7894409BCD5BFA78A61639E907D68DF3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB08E5F4CEBD5F5CCA24FDC031A1AD4 /* OpenGLES.framework */; };
 		7C8AA5D8253EBF84FBC20055DAC60811 /* Father.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61660C22C8B84885AE3BA5EED2B1FF /* Father.swift */; };
 		82FCBEB40EA10FD1F329DD73F83240EB /* Verify-SwiftOC3rd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2506F1C2E0FA8A1193A74024418CDA0A /* Verify-SwiftOC3rd-dummy.m */; };
@@ -60,9 +56,8 @@
 		2C526C1F55F10E6C3C8865EEC429F595 /* Pods-Verify-SwiftOC3rd_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verify-SwiftOC3rd_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		328B5FAB957EF24603D8086E6DD3A8F7 /* Pods-Verify-SwiftOC3rd_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Tests-resources.sh"; sourceTree = "<group>"; };
 		43ACE8FC4430C24C5CD1E4B264F4598B /* MapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		4A7165E7DB91D9F2B5A1193895A1B2B8 /* Pods-Verify-SwiftOC3rd_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Verify-SwiftOC3rd_Example.modulemap"; sourceTree = "<group>"; };
+		4A7165E7DB91D9F2B5A1193895A1B2B8 /* Pods-Verify-SwiftOC3rd_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Verify-SwiftOC3rd_Example.modulemap"; sourceTree = "<group>"; };
 		50E0265287939DA2B815A947A89FB2B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		5E5AC2E173FAD76642A69EB727E7A4C6 /* Pods_Verify_SwiftOC3rd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E719DAD2250ACEB19BE07CA022A065D /* Kid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kid.h; sourceTree = "<group>"; };
 		62C3B081BC5BFC74882DC324D61B4D7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		6937032D92E656BBCA840CE712894FD8 /* Family.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Family.h; sourceTree = "<group>"; };
@@ -71,21 +66,23 @@
 		7616860263D8F5EC40D5B70B9F29EC38 /* Pods-Verify-SwiftOC3rd_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		78071BB2BA75BBD456BCB43098D1FB5C /* Kid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
 		824169206FDA518B73F045BF9F3480C0 /* Pods-Verify-SwiftOC3rd_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verify-SwiftOC3rd_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B49C3E2195B3A1684AE5BE718D8198B /* Verify_SwiftOC3rd_Vendors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Verify_SwiftOC3rd_Vendors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8266B9F42FA8F03822017772B7F10E2B /* Pods_Verify_SwiftOC3rd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Verify_SwiftOC3rd_Example.framework; path = "Pods-Verify-SwiftOC3rd_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5D08D9F5F0E0CCC283697E5740B9DB /* Pods-Verify-SwiftOC3rd_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verify-SwiftOC3rd_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8F9A85A9DE3D98AB700BB99BD4CEAE67 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = "Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework"; sourceTree = "<group>"; };
 		902077CE21499256DD2136D80E6809A5 /* Mother.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mother.swift; sourceTree = "<group>"; };
 		905E8E08F4B84781B736C1A024F3BD99 /* Pods-Verify-SwiftOC3rd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verify-SwiftOC3rd_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		91A02BBF89DBB0694CCD2794906B7C18 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Verify-SwiftOC3rd/Vendors/thirdlibs/libcrypto.a"; sourceTree = "<group>"; };
 		92B087A6B4C10E940D394C733BDE2155 /* Pods-Verify-SwiftOC3rd_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D2A2E87FD3B52755C5DD75BD3EA763 /* Pods-Verify-SwiftOC3rd_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Verify-SwiftOC3rd_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D2A2E87FD3B52755C5DD75BD3EA763 /* Pods-Verify-SwiftOC3rd_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Verify-SwiftOC3rd_Tests.modulemap"; sourceTree = "<group>"; };
 		9D82A67F78B0DF5B79714985FBDCC927 /* Pods-Verify-SwiftOC3rd_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Verify-SwiftOC3rd_Example-dummy.m"; sourceTree = "<group>"; };
 		A2D60129857F0F4CB2EE3D73BD002121 /* Pods-Verify-SwiftOC3rd_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verify-SwiftOC3rd_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4A51BE2E1A1A678B0F93D134DD48352 /* Pods-Verify-SwiftOC3rd_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verify-SwiftOC3rd_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7BCE03BFC24A7416232865EA000744F /* Verify-SwiftOC3rd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd-umbrella.h"; sourceTree = "<group>"; };
+		BC3FA72F1CD713D592B9FC954CAE16E8 /* Pods_Verify_SwiftOC3rd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Verify_SwiftOC3rd_Tests.framework; path = "Pods-Verify-SwiftOC3rd_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD28FAF444DDAD78340C8DAEDCF31A0D /* Pods-Verify-SwiftOC3rd_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verify-SwiftOC3rd_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE91FEFDA1ACEFDD5E2C22C1C52DF577 /* Pods-Verify-SwiftOC3rd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verify-SwiftOC3rd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF187AC5F7F533FC01E3F91074AFCAA5 /* Verify_SwiftOC3rd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Verify_SwiftOC3rd.framework; path = "Verify-SwiftOC3rd.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D909C793C6D60086A16647F1A73A911F /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = "Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base.framework"; sourceTree = "<group>"; };
 		DE8B08FD5B6842CF3E91F6630F98DEC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1BD1D29A0FE1EF5D1CD05593102E627 /* PersonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
@@ -95,9 +92,8 @@
 		EC61660C22C8B84885AE3BA5EED2B1FF /* Father.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Father.swift; sourceTree = "<group>"; };
 		EF3C30227403A6D7368FA7E9C048BA6B /* Pods-Verify-SwiftOC3rd_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Verify-SwiftOC3rd_Example-resources.sh"; sourceTree = "<group>"; };
 		EF5F25F8B44A1898083D417AC361CE4B /* Verify-SwiftOC3rd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd-prefix.pch"; sourceTree = "<group>"; };
-		F10E39A8848F9754627C5F971520AFCA /* Verify-SwiftOC3rd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Verify-SwiftOC3rd.modulemap"; sourceTree = "<group>"; };
+		F10E39A8848F9754627C5F971520AFCA /* Verify-SwiftOC3rd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Verify-SwiftOC3rd.modulemap"; sourceTree = "<group>"; };
 		F4E81B02D1E2F5E0CC483E5B51003CF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7609D7AF22BE2195B8974D3B42C91A8 /* Pods_Verify_SwiftOC3rd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC184B8A4681962163752F6F219A9750 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		FCDC0D2FC22C7A0C4E447281BC32A603 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -118,13 +114,9 @@
 				911F6A7FBAF2ED4AF064C680F7A99C63 /* CoreGraphics.framework in Frameworks */,
 				1A8A8CF4D074267C36437DA89253BBD5 /* CoreLocation.framework in Frameworks */,
 				187D8AFAC83D6FA0BF39A8B72608DEAF /* CoreTelephony.framework in Frameworks */,
-				6E0659CC1F063780001F567D /* BaiduMapAPI_Map.framework in Frameworks */,
 				D2A9B4001A314474A0C0BE1D8AC74FEF /* Foundation.framework in Frameworks */,
 				7894409BCD5BFA78A61639E907D68DF3 /* OpenGLES.framework in Frameworks */,
-				6E0659CD1F063783001F567D /* libcrypto.a in Frameworks */,
 				68FEA3B401B88A761C156B7FF300772D /* QuartzCore.framework in Frameworks */,
-				6E0659CE1F063787001F567D /* libssl.a in Frameworks */,
-				6E0659CB1F06377C001F567D /* BaiduMapAPI_Base.framework in Frameworks */,
 				88BE83B941A54C35B545300EEB2BB4A1 /* Security.framework in Frameworks */,
 				671997BC361DFB8E658CA9407468C677 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -141,12 +133,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		110D42B5084F53BEE6A09BA222EA6FE5 /* Products */ = {
+		0C74BC9011C5703F2E4FCE5FAB9513DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7609D7AF22BE2195B8974D3B42C91A8 /* Pods_Verify_SwiftOC3rd_Example.framework */,
-				5E5AC2E173FAD76642A69EB727E7A4C6 /* Pods_Verify_SwiftOC3rd_Tests.framework */,
-				8B49C3E2195B3A1684AE5BE718D8198B /* Verify_SwiftOC3rd_Vendors.framework */,
+				8266B9F42FA8F03822017772B7F10E2B /* Pods_Verify_SwiftOC3rd_Example.framework */,
+				BC3FA72F1CD713D592B9FC954CAE16E8 /* Pods_Verify_SwiftOC3rd_Tests.framework */,
+				CF187AC5F7F533FC01E3F91074AFCAA5 /* Verify_SwiftOC3rd.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,6 +171,7 @@
 				E1BD1D29A0FE1EF5D1CD05593102E627 /* PersonProtocol.h */,
 				71DCC414A76730E5CF0C4EC4FED217CC /* Verify_SwiftOC3rd.h */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -195,6 +188,7 @@
 			children = (
 				2F9C6B47EE366750AC0657D713FEA976 /* Classes */,
 			);
+			name = "Verify-SwiftOC3rd";
 			path = "Verify-SwiftOC3rd";
 			sourceTree = "<group>";
 		};
@@ -230,7 +224,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				382ABF6F82EE1473E3CFD22FC598383F /* Development Pods */,
 				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
-				110D42B5084F53BEE6A09BA222EA6FE5 /* Products */,
+				0C74BC9011C5703F2E4FCE5FAB9513DD /* Products */,
 				F075ED869CB8924D9AC4267F61ACD97C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -347,7 +341,7 @@
 			);
 			name = "Pods-Verify-SwiftOC3rd_Example";
 			productName = "Pods-Verify-SwiftOC3rd_Example";
-			productReference = F7609D7AF22BE2195B8974D3B42C91A8 /* Pods_Verify_SwiftOC3rd_Example.framework */;
+			productReference = 8266B9F42FA8F03822017772B7F10E2B /* Pods_Verify_SwiftOC3rd_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1F1C74DEBF1C0672AF36D779E7E205C7 /* Pods-Verify-SwiftOC3rd_Tests */ = {
@@ -364,7 +358,7 @@
 			);
 			name = "Pods-Verify-SwiftOC3rd_Tests";
 			productName = "Pods-Verify-SwiftOC3rd_Tests";
-			productReference = 5E5AC2E173FAD76642A69EB727E7A4C6 /* Pods_Verify_SwiftOC3rd_Tests.framework */;
+			productReference = BC3FA72F1CD713D592B9FC954CAE16E8 /* Pods_Verify_SwiftOC3rd_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3461D52BC1E70C92CEB24A4E8FEA6322 /* Verify-SwiftOC3rd */ = {
@@ -381,7 +375,7 @@
 			);
 			name = "Verify-SwiftOC3rd";
 			productName = "Verify-SwiftOC3rd";
-			productReference = 8B49C3E2195B3A1684AE5BE718D8198B /* Verify_SwiftOC3rd_Vendors.framework */;
+			productReference = CF187AC5F7F533FC01E3F91074AFCAA5 /* Verify_SwiftOC3rd.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,7 +395,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 110D42B5084F53BEE6A09BA222EA6FE5 /* Products */;
+			productRefGroup = 0C74BC9011C5703F2E4FCE5FAB9513DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -454,9 +448,127 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DF337691DDF5C018248EA8C08F274A6 /* Debug */ = {
+		181ED6FE1E447BA6FCF997248DCF3DCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE91FEFDA1ACEFDD5E2C22C1C52DF577 /* Pods-Verify-SwiftOC3rd_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0353FE90E41D650DABC3EB71FE19CB89 /* Pods-Verify-SwiftOC3rd_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests/Pods-Verify-SwiftOC3rd_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521C9BA95956CC2821BF6E96AF034107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB331DD7B6AC0AB44EC240C843E3B6A6 /* Pods-Verify-SwiftOC3rd_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Pods-Verify-SwiftOC3rd_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D2829CBA49351A3F476AE7B1CA0E922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905E8E08F4B84781B736C1A024F3BD99 /* Pods-Verify-SwiftOC3rd_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -470,27 +582,65 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests/Pods-Verify-SwiftOC3rd_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Pods-Verify-SwiftOC3rd_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Tests;
+				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		B73C1BE55B385B692D6E4967BDC6EB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Verify-SwiftOC3rd/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Verify_SwiftOC3rd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -530,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -538,125 +688,7 @@
 			};
 			name = Debug;
 		};
-		485B30C50EFE60457DD57A488CD37B4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Verify-SwiftOC3rd/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Verify_SwiftOC3rd_Vendors;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6F5B641D5220AACC4F0D78729123D0C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 905E8E08F4B84781B736C1A024F3BD99 /* Pods-Verify-SwiftOC3rd_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Pods-Verify-SwiftOC3rd_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8B2BF9EC7CA442F7F733F67DFCFD7E9C /* Release */ = {
+		C504032F1437BAC6D4523FB5B36CCE5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CCA1EAC434C87026DBAA160ABB8EEB8 /* Verify-SwiftOC3rd.xcconfig */;
 			buildSettings = {
@@ -679,7 +711,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Verify-SwiftOC3rd/Verify-SwiftOC3rd.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Verify_SwiftOC3rd_Vendors;
+				PRODUCT_NAME = Verify_SwiftOC3rd;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -690,54 +722,16 @@
 			};
 			name = Release;
 		};
-		A75CF286AF67B4337630FF96CFCF380B /* Release */ = {
+		DD96F58024AEE343F55994E64324CEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB331DD7B6AC0AB44EC240C843E3B6A6 /* Pods-Verify-SwiftOC3rd_Example.release.xcconfig */;
+			baseConfigurationReference = CE91FEFDA1ACEFDD5E2C22C1C52DF577 /* Pods-Verify-SwiftOC3rd_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Example/Pods-Verify-SwiftOC3rd_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Verify_SwiftOC3rd_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F74D7BB6F5B4C7C6B180D2285FAC66CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0353FE90E41D650DABC3EB71FE19CB89 /* Pods-Verify-SwiftOC3rd_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -746,11 +740,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Verify-SwiftOC3rd_Tests/Pods-Verify-SwiftOC3rd_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -762,7 +756,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -770,8 +764,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -779,8 +773,8 @@
 		9030DE12C80B79B0F2B7EBB42CC41BD9 /* Build configuration list for PBXNativeTarget "Verify-SwiftOC3rd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				485B30C50EFE60457DD57A488CD37B4D /* Debug */,
-				8B2BF9EC7CA442F7F733F67DFCFD7E9C /* Release */,
+				B73C1BE55B385B692D6E4967BDC6EB94 /* Debug */,
+				C504032F1437BAC6D4523FB5B36CCE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -788,8 +782,8 @@
 		935CD70897734DC148FEF21634387B41 /* Build configuration list for PBXNativeTarget "Pods-Verify-SwiftOC3rd_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F5B641D5220AACC4F0D78729123D0C2 /* Debug */,
-				A75CF286AF67B4337630FF96CFCF380B /* Release */,
+				9D2829CBA49351A3F476AE7B1CA0E922 /* Debug */,
+				521C9BA95956CC2821BF6E96AF034107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -797,8 +791,8 @@
 		A60FC720F7BD6B5C9D5B5EFFE565E35D /* Build configuration list for PBXNativeTarget "Pods-Verify-SwiftOC3rd_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DF337691DDF5C018248EA8C08F274A6 /* Debug */,
-				F74D7BB6F5B4C7C6B180D2285FAC66CB /* Release */,
+				DD96F58024AEE343F55994E64324CEA0 /* Debug */,
+				181ED6FE1E447BA6FCF997248DCF3DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

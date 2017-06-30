@@ -89,10 +89,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Verify-SwiftOC3rd/Verify_SwiftOC3rd_Vendors.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Verify-SwiftOC3rd/Verify_SwiftOC3rd.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Verify-SwiftOC3rd/Verify_SwiftOC3rd_Vendors.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Verify-SwiftOC3rd/Verify_SwiftOC3rd.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

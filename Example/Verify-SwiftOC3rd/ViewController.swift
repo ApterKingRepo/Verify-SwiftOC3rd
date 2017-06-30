@@ -17,15 +17,10 @@ class ViewController: UIViewController {
 
         let kid = Kid()
         kid.name = "小明"
-        let mother = Mother(name: "妈妈", kid: kid)
-        let father = Father(name: "爸爸", kid: kid)
 
         let family = Family()
-        family.father = father
-        family.mother = mother
-        
-        family.father.feed("牛肉")
-        family.mother.feed("牛奶")
+        family.kid = kid
+        family.fatherFeed("牛肉", mother: "牛奶")
     }
 
     override func didReceiveMemoryWarning() {

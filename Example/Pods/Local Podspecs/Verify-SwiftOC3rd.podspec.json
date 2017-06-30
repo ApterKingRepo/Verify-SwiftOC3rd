@@ -19,7 +19,6 @@
   },
   "source_files": "Verify-SwiftOC3rd/Classes/**/*",
   "public_header_files": "Verify-SwiftOC3rd/Classes/**/*.h",
-  "header_dir": "Verify-SwiftOC3rd/Vendors",
   "frameworks": [
     "CoreLocation",
     "QuartzCore",

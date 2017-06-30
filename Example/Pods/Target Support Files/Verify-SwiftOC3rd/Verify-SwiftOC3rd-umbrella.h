@@ -15,6 +15,6 @@
 #import "PersonProtocol.h"
 #import "Verify_SwiftOC3rd.h"
 
-FOUNDATION_EXPORT double Verify_SwiftOC3rd_VendorsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Verify_SwiftOC3rd_VendorsVersionString[];
+FOUNDATION_EXPORT double Verify_SwiftOC3rdVersionNumber;
+FOUNDATION_EXPORT const unsigned char Verify_SwiftOC3rdVersionString[];
 
