@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Verify-SwiftOC3rd_Example' do
+  pod 'Verify-SwiftOC3rd', :path => '../'
+
+  target 'Verify-SwiftOC3rd_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
