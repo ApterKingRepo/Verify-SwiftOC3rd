@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Verify-SwiftOC3rd: 1bc76f54c4a2917df565c1fda560c8727b7295b5
+  Verify-SwiftOC3rd: 283dcf95f066d5aca6b8bae132b08041bbab5c2f
 
 PODFILE CHECKSUM: d1a88c9ff66b39cdfaaaf07fdc256244f5681f6e
 

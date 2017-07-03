@@ -17,8 +17,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Verify-SwiftOC3rd/Classes/**/*",
-  "public_header_files": "Verify-SwiftOC3rd/Classes/**/*.h",
+  "source_files": [
+    "Verify-SwiftOC3rd/Classes/**/*",
+    "Verify-SwiftOC3rd/Vendors/*.framework/Headers/**.h"
+  ],
+  "public_header_files": [
+    "Verify-SwiftOC3rd/Classes/**/*.h",
+    "Verify-SwiftOC3rd/Vendors/BadiduMapAPI_Base.framework/Headers/BMKBaseComponent.h",
+    "Verify-SwiftOC3rd/Vendors/BadiduMapAPI_Map.framework/Headers/BMKMapComponent.h"
+  ],
+  "resources": "Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
   "frameworks": [
     "CoreLocation",
     "QuartzCore",
@@ -39,6 +47,8 @@
     "Verify-SwiftOC3rd/Vendors/thirdlibs/*.a"
   ],
   "pod_target_xcconfig": {
-    "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/Verify-SwiftOC3rd/Vendors/"
+    "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/Verify-SwiftOC3rd/Vendors/*.framework/Headers",
+    "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/Verify-SwiftOC3rd/Vendors/",
+    "OTHER_LDFLAGS": "-ObjC"
   }
 }

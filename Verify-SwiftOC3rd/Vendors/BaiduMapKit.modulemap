@@ -1,5 +1,8 @@
 framework module BaiduMapKit {
-  umbrella header "Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base/BMKBaseComponent.h"
+  header "Family.h"
+  header "Kid.h"
+  header "BaiduMapAPI_Base.framework/BMKBaseComponent.h"
+  header "Verify_SwiftOC3rd.h"
 
   export *
   module * { export * }
