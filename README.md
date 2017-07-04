@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Verify-SwiftOC3rd.svg?style=flat)](http://cocoapods.org/pods/Verify-SwiftOC3rd)
 [![License](https://img.shields.io/cocoapods/l/Verify-SwiftOC3rd.svg?style=flat)](http://cocoapods.org/pods/Verify-SwiftOC3rd)
 [![Platform](https://img.shields.io/cocoapods/p/Verify-SwiftOC3rd.svg?style=flat)](http://cocoapods.org/pods/Verify-SwiftOC3rd)
+**[中文文档](http://www.jianshu.com/p/913df8cc1f18)**
 
 ## Example
 
