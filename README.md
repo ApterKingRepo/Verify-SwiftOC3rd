@@ -18,7 +18,15 @@ Verify-SwiftOC3rd is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Verify-SwiftOC3rd"
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/ApterKingRepo/Specs.git'
+platform :ios, '9.0'
+
+target 'xxx' do
+  use_frameworks!
+  pod 'Verify-SwiftOC3rd'
+
+end
 ```
 
 ## Author
