@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import BaiduMapAPI_Base
+import BaiduMapAPI_Map
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var bmkManager: BMKMapManager?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        bmkManager = BMKMapManager()
+
+        if BMKMapManager.setCoordinateTypeUsedInBaiduMapSDK(BMK_COORDTYPE_BD09LL) {
+            NSLog("经纬度设置成功")
+        } else {
+            NSLog("经纬度设置失败")
+        }
+
+        let ret = bmkManager?.start("rMtBpzV7kxIRHssuyXqyr22NmQxhsEoe", generalDelegate: self)
+        if ret == false {
+            NSLog("manager start failed")
+        }
         return true
     }
 
@@ -41,6 +55,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
 
+extension AppDelegate: BMKGeneralDelegate {
+    func onGetNetworkState(_ iError: Int32) {
+        if 0 == iError {
+            NSLog("联网成功")
+        } else {
+            NSLog("联网失败，错误代码：Error\(iError)")
+        }
+    }
+
+    func onGetPermissionState(_ iError: Int32) {
+        if 0 == iError {
+            NSLog("授权成功")
+        } else {
+            NSLog("授权失败，错误代码\(iError)")
+        }
+    }
+}

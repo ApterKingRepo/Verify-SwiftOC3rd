@@ -9,5 +9,8 @@
 #ifndef Verify_SwiftOC3rd_h
 #define Verify_SwiftOC3rd_h
 
+#import "Family.h"
+#import "Kid.h"
+#import "PersonProtocol.h"
 
 #endif /* Verify_SwiftOC3rd_h */

@@ -20,14 +20,27 @@ class ViewController: UIViewController {
 
         let family = Family()
         family.kid = kid
-        family.fatherFeed("牛肉", mother: "牛奶")
 
-//        var mapView = 
+        family.father = Father(name: "Davi", kid: kid)
+        family.mother = Mother(name: "Lily", kid: kid)
+
+        family.feed("牛肉", mFood: "牛奶")
+
+        let button = UIButton(frame: CGRect(x: 200, y: 200, width: 100, height: 50))
+        button.setTitle("跳转", for: .normal)
+        button.setTitleColor(UIColor.blue, for: .normal)
+        button.addTarget(self, action: #selector(jump), for: .touchUpInside)
+        self.view.addSubview(button)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    func jump() {
+        let mapVC = MapViewController()
+        self.present(mapVC, animated: true, completion: nil)
     }
 
 }

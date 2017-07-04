@@ -11,12 +11,9 @@
 
 @implementation Family
 
-- (void)fatherFeed:(NSString *)fFood mother:(NSString *)mFood {
-    Father *father = [[Father alloc] initWithName:@"Davi" kid:self.kid];
-    [father feed:fFood];
-    
-    Mother *mother = [[Mother alloc] initWithName:@"Lily" kid:self.kid];
-    [mother feed:mFood];
+- (void)feed:(NSString *)fFood mFood:(NSString *)mFood {
+    [self.father feed:fFood];
+    [self.mother feed:mFood];
 }
 
 @end

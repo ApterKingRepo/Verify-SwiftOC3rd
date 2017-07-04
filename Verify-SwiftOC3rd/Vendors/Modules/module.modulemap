@@ -1,0 +1,14 @@
+framework module BaiduMapKit {
+  
+  explicit module Base {
+    umbrella header "BMKBaseComponent.h"
+  }
+
+  explicit module Map {
+    umbrella header "BMKMapComponent.h"
+  }
+  
+  export *
+  link 'sqlite3.0'
+  link 'stdc++.6.0.9'
+}

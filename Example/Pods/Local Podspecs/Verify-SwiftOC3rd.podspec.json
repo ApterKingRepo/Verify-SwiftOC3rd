@@ -1,6 +1,6 @@
 {
   "name": "Verify-SwiftOC3rd",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "summary": "验证私有组件中使用Swift结合OC第三方.framework、.library库及OC文件组合打包构建私有Pod",
   "homepage": "https://github.com/ApterKingRepo/Verify-SwiftOC3rd",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/ApterKingRepo/Verify-SwiftOC3rd.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -50,5 +50,6 @@
     "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/Verify-SwiftOC3rd/Vendors/*.framework/Headers",
     "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/Verify-SwiftOC3rd/Vendors/",
     "OTHER_LDFLAGS": "-ObjC"
-  }
+  },
+  "prepare_command": "# 业务Module\nrm -rf Verify-SwiftOC3rd/Classes/Modules\nmkdir Verify-SwiftOC3rd/Classes/Modules\ntouch Verify-SwiftOC3rd/Classes/Modules/module.modulemap\ncat <<-EOF > Verify-SwiftOC3rd/Classes/Modules/module.modulemap\nframework module Verify {\n  umbrella header \"Verify_SwiftOC3rd.h\"\n  export *\n  link \"sqlite3.0\"\n  link \"stdc++.6.0.9\"\n}\nEOF\n\n\n# 创建Base Module\nrm -rf Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base.framework/Modules\nmkdir Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base.framework/Modules\ntouch Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base.framework/Modules/module.modulemap\ncat <<-EOF > Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Base.framework/Modules/module.modulemap\nframework module BaiduMapAPI_Base {\n  umbrella header \"BMKBaseComponent.h\"\n  export *\n  link \"sqlite3.0\"\n  link \"stdc++.6.0.9\"\n}\nEOF\n\n# 创建Map Module\nrm -rf Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework/Modules\nmkdir Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework/Modules\ntouch Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework/Modules/module.modulemap\ncat <<-EOF > Verify-SwiftOC3rd/Vendors/BaiduMapAPI_Map.framework/Modules/module.modulemap\nframework module BaiduMapAPI_Map {\n  umbrella header \"BMKMapComponent.h\"\n  export *\n  link \"sqlite3.0\"\n  link \"stdc++.6.0.9\"\n}\nEOF"
 }

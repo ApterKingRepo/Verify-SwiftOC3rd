@@ -41,7 +41,6 @@
 		607FACE51AFB9204008FA782 /* Verify-SwiftOC3rd_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verify-SwiftOC3rd_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E0659BD1F062BE4001F567D /* Verify-SwiftOC3rd_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Verify-SwiftOC3rd_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		7F49AAE942A3D764E46E9C3D /* Verify-SwiftOC3rd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Verify-SwiftOC3rd.podspec"; path = "../Verify-SwiftOC3rd.podspec"; sourceTree = "<group>"; };
 		B60604CABB6D1B603DECAFD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC39B4CEE340A1E48A03F10E /* Pods_Verify_SwiftOC3rd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verify_SwiftOC3rd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +99,6 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				6E0659BD1F062BE4001F567D /* Verify-SwiftOC3rd_Example-Bridging-Header.h */,
 			);
 			name = "Example for Verify-SwiftOC3rd";
 			path = "Verify-SwiftOC3rd";
@@ -502,9 +500,9 @@
 				INFOPLIST_FILE = "Verify-SwiftOC3rd/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApterKing.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Verify-SwiftOC3rd/Verify-SwiftOC3rd_Example-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -519,9 +517,9 @@
 				INFOPLIST_FILE = "Verify-SwiftOC3rd/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ApterKing.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Verify-SwiftOC3rd/Verify-SwiftOC3rd_Example-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

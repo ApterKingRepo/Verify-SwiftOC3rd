@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import BaiduMapAPI_Map
 
-class MapViewController: UIViewController {
+public class MapViewController: UIViewController {
 
-    override func viewDidLoad() {
+   public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
 
-//        let mapView = BMKMapView.init(frame: self.view.bounds)
+        let mapView = BMKMapView.init(frame: self.view.bounds)
+        self.view.addSubview(mapView)
     }
 
-    override func didReceiveMemoryWarning() {
+    public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
